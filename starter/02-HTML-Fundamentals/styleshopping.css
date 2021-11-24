@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+.container {
+  border: 5px solid black;
+  width: 825px;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 700px;
+}
+
+h2 {
+  text-transform: uppercase;
+  background-color: rgba(128, 128, 128, 0.137);
+  padding: 10px;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 15px;
+}
+#navigateBack {
+  background-color: rgba(13, 5, 49, 0.473);
+  padding: 10px;
+  margin: -1px;
+}
+h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(61, 60, 60, 0.932);
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+p {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+a:link {
+  color: black;
+
+  margin-bottom: 30px;
+}
+a:hover {
+  text-decoration: none rgba(4, 1, 34, 0.603);
+}
+
+.productDeatils {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: square;
+
+  margin-left: 20px;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+li {
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+  border-top: 0px solid black;
+  cursor: pointer;
+}
+.button:hover {
+  background-image: none;
+  background-color: white;
+  color: black;
+}
+#naviagtebacklink {
+  color: crimson;
+}
+nav a {
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+}
+
+#saleTag {
+  padding: 5px 12px;
+  position: absolute;
+  left: -30px;
+  top: -20px;
+  background-color: rgb(248, 9, 9);
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.colourselection {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 8px 8px;
+  display: inline-block;
+  border: none;
+}
+.ImageValue {
+  width: 220px;
+  height: 200px;
+  float: left;
+}
+.PaymentValue {
+  width: 230px;
+  float: left;
+}
+.productDeatilsclass {
+  width: 230px;
+  float: right;
+  height: 165px;
+  font-size: 13px;
+}

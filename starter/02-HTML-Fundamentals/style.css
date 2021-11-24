@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+
+  border-right: 90px solid white;
+  border-left: 90px solid white;
+  border-top: 30px solid white;
+  border-bottom: 30px solid white;
+  position: relative;
+}
+.container {
+  width: 1200px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+footer {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: cornflowerblue;
+}
+
+h1 {
+  font-size: 30px;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 10px;
+}
+h2 {
+  font-size: 20px;
+  font-style: normal;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+h3 {
+  font-size: 15px;
+  font-style: normal;
+  text-align: left;
+}
+header h2 {
+  font-size: 40px;
+}
+p {
+  font-size: 15px;
+  color: black;
+  font-style: normal;
+  line-height: 1.5;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+ul {
+  font-size: 15px;
+  font-style: normal;
+  padding-left: 15px;
+  margin-left: 25px;
+}
+ol {
+  font-size: 15px;
+  font-style: normal;
+  padding-left: 15px;
+  margin-left: 25px;
+}
+footer {
+  font-size: 10px;
+  font-style: normal;
+  color: dimgray;
+}
+
+#authorDeatils {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.unorderlisted-class {
+  font-size: 15px;
+}
+
+.related-exrta-Data {
+  list-style: none;
+}
+
+.Main-Header {
+  background-color: rgba(184, 240, 235, 0.308);
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-bottom: 25px;
+}
+
+aside {
+  background-color: rgba(184, 240, 235, 0.075);
+  border-top: 5px solid dodgerblue;
+  border-bottom: 5px solid dodgerblue;
+  height: 500px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+aside ul {
+  padding: 0px;
+}
+aside p {
+  text-align: left;
+}
+aside a {
+  margin: 10px;
+  border: 10px;
+  padding: 10px;
+}
+aside img {
+  margin: 0px;
+  padding: 0px;
+}
+aside h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+img {
+  /* padding: 15px; */
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+a:link {
+  color: dodgerblue;
+  font-family: sans-serif;
+}
+a:visited {
+  color: dodgerblue;
+}
+a:hover {
+  color: green;
+  font-style: italic;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  font-weight: bold;
+}
+a {
+  margin: 10px;
+  padding: 10px;
+}
+button {
+  padding: 8px 10px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+nav a {
+  margin: 5px;
+  padding: 5px;
+  /* width: 200px; */
+  text-decoration: none;
+}
+.imagfloating img {
+  float: left;
+  padding: 5px;
+}
+.imagfloating a {
+  text-align: center;
+  padding: 50px;
+  float: right;
+}
+article {
+  /* background-color: blueviolet; */
+  float: left;
+  width: 825px;
+}
+
+aside {
+  /* background-color: chartreuse; */
+  float: right;
+  width: 250px;
+}
+footer p {
+  background-color: rgba(14, 0, 139, 0.144);
+  padding: 20px;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  clear: both;
+  color: black;
+}
+
+#authorDeatils {
+  clear: both;
+}
+.Main-Header h1 {
+  float: left;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.Main-Header nav {
+  float: right;
+}
